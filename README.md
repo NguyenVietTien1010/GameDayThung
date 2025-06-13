@@ -40,7 +40,7 @@ Mini-game Đẩy Thùng (Sokoban) là một trò chơi tư duy nơi người ch�
   <img src="assets/ChonCheDo.png" width="30%" style="margin:10px;"> 
   <img src="assets/ChonMucChoi.png" width="30%" style="margin:10px;"> 
   <img src="assets/GiaoDienAI.png" width="30%"> </p> <p align="center"> 
-  <img src="assets/GiaoDienChinh" width="30%" style="margin:10px;"> 
+  <img src="assets/GiaoDienChinh.png" width="30%"> </p> <p align="center">
   <strong>Chọn chế độ | Chon mức chơi | AI đang giải bằng A* | Giao diện người chơi</strong> 
 </p>
 
