@@ -36,18 +36,24 @@ Mini-game Đẩy Thùng (Sokoban) là một trò chơi tư duy nơi người ch�
 
 ## 📷 Giao Diện Minh Họa
 
-<p align="center"> <img src="assets/menu.png" width="30%" style="margin:10px;"> <img src="assets/playing.png" width="30%" style="margin:10px;"> <img src="assets/solving.png" width="30%"> </p> <p align="center"> <strong>Chọn chế độ | Người chơi điều khiển | AI đang giải bằng A*</strong> </p>
+<p align="center"> 
+  <img src="assets/ChonCheDo.png" width="30%" style="margin:10px;"> 
+  <img src="assets/ChonMucChoi.png" width="30%" style="margin:10px;"> 
+  <img src="assets/GiaoDienAI.png" width="30%"> </p> <p align="center"> 
+  <img src="assets/GiaoDienChinh" width="30%" style="margin:10px;"> 
+  <strong>Chọn chế độ | Chon mức chơi | AI đang giải bằng A* | Giao diện người chơi</strong> 
+</p>
 
 ---
-Ý nghĩa	Biểu tượng
-🧱 Tường	
-📦 Hộp	
-🎯 Mục tiêu	
-🍄 Người chơi	
-🐾 Đường AI
+## Ý nghĩa	Biểu tượng
+- 🧱 Tường	
+- 📦 Hộp	
+- 🎯 Mục tiêu	
+- 🍄 Người chơi	
+- 🐾 Đường AI
 ---
-👨‍💻 Tác Giả
-Nguyễn Viết Tiến – Thiết kế logic game, xử lý bản đồ, lập trình AI, xây dựng giao diện bằng Pygame, tích hợp thuật toán A* và Hill Climbing.
+## 👨‍💻 Tác Giả
+- Nguyễn Viết Tiến – Thiết kế logic game, xử lý bản đồ, lập trình AI, xây dựng giao diện bằng Pygame, tích hợp thuật toán A* và Hill Climbing.
 ---
 
 
