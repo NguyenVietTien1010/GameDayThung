@@ -1,39 +1,60 @@
-🔍 Tổng quan game đẩy hộp
+# 🎮 MINI GAME ĐẨY THÙNG – AI GỢI Ý ĐƯỜNG ĐI
 
-🎮 Chế độ chơi
-P: Người chơi điều khiển bằng bàn phím
-A: AI tự động giải (sử dụng A* để tìm đường đi hộp đến đích)
+> Trò chơi giải đố kinh điển được nâng cấp với AI gợi ý đường đi hộp đến đích – vừa chơi vừa luyện tư duy!
 
-🧠 Thuật toán sử dụng
-A* (A-star) để tìm đường ngắn nhất từ hộp đến vị trí goal
-Hill Climbing có trong code nhưng hiện không được dùng làm AI chính
-Hệ thống đánh giá sử dụng heuristic Manhattan distance
+---
 
-🧩 Bản đồ & độ khó
-Có 3 level: Dễ, Trung bình, Khó
-Level khó được tạo ngẫu nhiên với số lượng tường, hộp và mục tiêu tùy chỉnh
-# = tường, B = hộp, G = mục tiêu, P = người chơi
+## ✨ Giới thiệu
 
-🖼️ Giao diện
-Đồ họa đơn giản sử dụng hình ảnh: wall.png, crate.png, focus.png, mushroom.png, pawprint.png
-Hiển thị hộp đã đặt đúng vị trí bằng tô màu xanh lá cây (GREEN)
-Có hiệu ứng dấu chân khi AI giải (path visualization)
-<p align="center"> 
-  <img src="assets/menu.png" width="30%" style="margin-right:10px;"> 
-  <img src="assets/playing.png" width="30%" style="margin-right:10px;"> 
-  <img src="assets/solving.png" width="30%"> </p> <p align="center"> 
-    <strong>Menu chọn chế độ | Người chơi điều khiển | AI tự động giải</strong> </p>
-    
-🧩 Biểu tượng trong game
-Biểu tượng	Hình ảnh	Ý nghĩa
-🧱 Wall	
-Vật cản (không thể đi qua)
-📦 Box	
-Hộp cần đẩy vào mục tiêu
-🎯 Goal	
-Vị trí đích của hộp
-🍄 Player	
-Người chơi
-🐾 AI path	
-Đường đi AI đề xuất
-✅ Khi hộp được đẩy đúng vị trí đích, nó sẽ được tô màu xanh lá cây.
+Mini-game Đẩy Thùng (Sokoban) là một trò chơi tư duy nơi người chơi cần đẩy các hộp đến đúng vị trí mục tiêu trên bản đồ. Trò chơi hỗ trợ:
+- 👤 Chế độ người chơi điều khiển bằng phím
+- 🤖 Chế độ AI tự động giải (A*), minh họa trực quan đường đi
+- 🧩 Nhiều cấp độ bản đồ: Dễ – Trung bình – Khó
+---
+
+## 💡 Tính Năng Nổi Bật
+
+- ✅ Hỗ trợ điều khiển bằng bàn phím
+- 🔁 Tùy chọn giải tự động bằng AI (A*)
+- 🗺️ Sinh bản đồ ngẫu nhiên cấp độ khó
+- 💾 Lưu tiến độ chơi gần nhất
+- 📊 Hiển thị thống kê số hộp đúng vị trí
+- 🎮 Đồ họa đơn giản dễ hiểu với các biểu tượng riêng biệt
+
+---
+
+## 🛠️ Công Nghệ Sử Dụng
+
+| Thành phần         | Công nghệ                    |
+|--------------------|------------------------------|
+| 👾 Game Engine          | Pygame  |
+| 🧠 AI tìm đường      | A* Algorithm , Hill Climbing |
+| 🌄 Giao diện    | Pygame + PNG assets  |
+| 🗂️ Quản lý tiến độ | Ghi vào game_progress.txt  |
+
+---
+
+## 📷 Giao Diện Minh Họa
+
+<p align="center"> <img src="assets/menu.png" width="30%" style="margin:10px;"> <img src="assets/playing.png" width="30%" style="margin:10px;"> <img src="assets/solving.png" width="30%"> </p> <p align="center"> <strong>Chọn chế độ | Người chơi điều khiển | AI đang giải bằng A*</strong> </p>
+
+---
+Ý nghĩa	Biểu tượng
+🧱 Tường	
+📦 Hộp	
+🎯 Mục tiêu	
+🍄 Người chơi	
+🐾 Đường AI
+---
+👨‍💻 Tác Giả
+Nguyễn Viết Tiến – Thiết kế logic game, xử lý bản đồ, lập trình AI, xây dựng giao diện bằng Pygame, tích hợp thuật toán A* và Hill Climbing.
+---
+
+
+##🚀 Khởi Chạy Dự Án
+✅ Dự án không cần cấu hình đặc biệt, chỉ cần cài pygame.bash
+
+git clone https://github.com/NguyenVietTien1010/GameDayThung.git
+cd GameDayThung
+pip install pygame
+python hillclimbing.py
