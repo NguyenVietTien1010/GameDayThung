@@ -60,7 +60,7 @@ Mini-game Đẩy Thùng (Sokoban) là một trò chơi tư duy nơi người ch�
 ##🚀 Khởi Chạy Dự Án
 ✅ Dự án không cần cấu hình đặc biệt, chỉ cần cài pygame.bash
 
-git clone https://github.com/NguyenVietTien1010/GameDayThung.git
-cd GameDayThung
-pip install pygame
-python hillclimbing.py
+- git clone https://github.com/NguyenVietTien1010/GameDayThung.git
+- cd GameDayThung
+- pip install pygame
+- python hillclimbing.py
